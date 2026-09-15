@@ -1,0 +1,10 @@
+# Normalize text line endings in the repository
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpeg binary
+*.jpg binary
+
+# Notebooks: treat as text, but avoid noisy merges
+*.ipynb text eol=lf
